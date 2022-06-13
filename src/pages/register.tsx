@@ -1,5 +1,7 @@
+import AuthForm from "../components/authentication/authForm";
+
 const RegisterPage = () => {
-  return <div>Je suis une super page d'inscription</div>;
+  return <AuthForm />;
 };
 
 export default RegisterPage;
